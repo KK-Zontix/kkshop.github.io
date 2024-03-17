@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html> 
+
+    <head> 
+        <meta charset="UTF-8">
+        <link rel="styleSheet" href="loginStyleSheet.css">    
+    </head>
+
+    <body> 
+        <!-- Change to different background -->
+        <header> 
+            <a href="homeIndex.html" class="logo"><img src="resources/kkLogo.png" alt="Kaotic Kitty Logo"
+                class="logo"></a>
+        </header>
+
+        <div class="login-form">
+
+            <form name ="sign-in" id="login" onsubmit="login();"> 
+                <h1>SIGN IN</h1>
+                <input type="text" placeholder="Username ..."> <br> 
+                <input type="text" placeholder="Password ..."> <br> 
+                <input type="submit" value="Login"> 
+
+                <p onclick="butResp('op-reg')" color="blue"> Don't have an account ? </p> <br> 
+            </form>
+
+            <form name="reg-in" id="reg"onsubmit="regVal();">
+                <h1> REGISTER </h1>
+                <input type="text" placeholder="Email..."><br> 
+                <input type="text" placeholder="Username ..."> <br> 
+                <input type="text" placeholder="Password ..."> <br> 
+                <input type="text" placeholder="Re-type Password ..."> <br> 
+                <input type="submit" value="Register"> 
+           </form>
+           <!--
+           <input type="button" value="Skip" > <br>
+           -->
+        </div>
+ 
+        <input type="button" id="skip" onclick="butResp('skip');" value="SKIP"> <br> 
+
+        <footer> 
+            <!--social links and maybe email things-->
+      
+            <li> 
+                <div class="f"> <img src= "" alt="" class= "footer-icon">Instagram</div>
+                <div class="f"> <img src= "" alt="" class= "footer-icon">TikTok</div>
+                <div class="f"> <img src= "" alt="" class= "footer-icon">Gmail</div>
+                <div class="f"> <img src= "" alt="" class= "footer-icon">Tech Support</div> 
+            </li>
+            
+            <p1>Copyright @ KaoticKitties. All rights reserved.</p1>
+    
+         
+        </footer>
+    <script src = "javascript/main.js"></script> 
+    </body>
+
+
+</html>
