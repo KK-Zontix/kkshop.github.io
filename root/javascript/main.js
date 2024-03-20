@@ -8,7 +8,7 @@ function login(){
     const pass = document.getElementById("password").value; 
 
     const xhttp = new XMLHttpRequest(); 
-    xhttp.open("POST", "login.html") // INSERT LOGIN page here; 
+    xhttp.open("POST", "index.html") // INSERT LOGIN page here; 
     xhttp.setRequestHeader("Content-Type", "application/json:charset=UTF-8");
     xhttp.send(
         JSON.stringify({
@@ -54,7 +54,7 @@ function butResp(type){
         const urlParams = new URLSearchParams(window.location.search);
 
         window.onload = function() {
-            window.location.href = urlParams.get('homeIndex.html');
+            window.location.href = urlParams.get('root/homeIndex.html');
         }
     }
     if(type=='op-reg'){
