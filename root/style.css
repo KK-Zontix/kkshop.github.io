@@ -1,5 +1,5 @@
 body {
-    background-image: url("kkbackground.png");
+    background-image: url("resources/kkbackground.png");
     background-repeat: repeat-y;
     background-size: cover;
     scroll-behavior: auto;
